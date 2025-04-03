@@ -5,7 +5,7 @@ import ProjectsSection from "@/components/projectsSection";
 
 export default function Home() {
   return (
-    <section>
+    <section className="max-w-[1280px] flex flex-col items-center justify-center mx-auto">
       <Navbar />
       <Header />
       <AboutSection />

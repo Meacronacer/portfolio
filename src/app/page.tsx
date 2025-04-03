@@ -1,6 +1,7 @@
 import AboutSection from "@/components/aboutSection";
 import Header from "@/components/header";
 import Navbar from "@/components/navbar";
+import ProjectsSection from "@/components/projectsSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <AboutSection />
+      <ProjectsSection />
     </section>
   );
 }

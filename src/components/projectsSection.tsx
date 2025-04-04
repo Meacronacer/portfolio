@@ -30,7 +30,7 @@ const PROJECT_DATA = [
 
 export default function ProjectsSection() {
   return (
-    <section className="w-full p-8">
+    <section id="projects" className="w-full py-8 px-4 scroll-m-16">
       <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
       <motion.div
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block rounded overflow-hidden shadow-lg hover:shadow-xl hover:scale-105 ease-in-out duration-300 transition-all"
+            className="block rounded overflow-hidden shadow-lg hover:shadow-xl hover:scale-[1.015] ease-in-out duration-300 transition-all"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >

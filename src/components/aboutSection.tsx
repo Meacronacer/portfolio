@@ -44,7 +44,10 @@ export default function AnimatedTabsTailwind() {
   const [activeTab, setActiveTab] = useState(TAB_DATA[0].id);
 
   return (
-    <div className="w-full mx-auto px-4 py-8 md:grid md:grid-cols-2 gap-16 items-center sm:py-16 xl:px-8">
+    <div
+      id="about"
+      className="w-full scroll-m-10 mx-auto py-8 md:grid md:grid-cols-2 gap-16 items-center sm:py-16 px-4"
+    >
       <div className="w-full h-auto">
         <Image
           alt="about-image"
@@ -55,7 +58,9 @@ export default function AnimatedTabsTailwind() {
         />
       </div>
       <div className="space-y-6 h-full">
-        <h2 className="text-4xl md:text-5xl font-bold text-white">About Me</h2>
+        <h2 className="text-4xl mt-10 md:mt-0 md:text-5xl font-bold text-white">
+          About Me
+        </h2>
         <p className="text-base lg:text-lg text-gray-300">
           I am a full stack web developer with a passion for creating
           interactive and responsive web applications. I have experience working
